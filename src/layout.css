@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.logo-header{
+  height: 14vh;
+  display: flex;
+}
+
+.logo{
+  margin:10px;
+}
+
+.logo img{
+  width:100%;
+  max-height: auto;
+}
+
+.logo-topic{
+   width: 50%;
+   text-align: center;
+   padding-top: 30px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bg-img-cover{
+    background-image: url(./assets/images/home.jpg);
+    height: 90vh;
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container{
+  display: flex;  
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.order-topic{
+  width: 320px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.item {
+  margin:auto;
+  padding-top: 40px;
+}
+
+.order-now,.addToCart,.paynow{
+  background:#4CAF50;
+  padding:10px 20px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.order-form{
+    width: 410px;
+    border-radius: 20px;
+    background: #fff;
+    margin-top: 20px;
+    height: 410px;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+header h2{
+    margin-top: 0;
+    text-align: center;
+}
+
+.gallery-header{
+   margin-bottom:10px;
+
+}
+.gallery-title{
+   text-align: center;
+   margin-top:0;
+}
+
+.container{
+  padding: 15px;
+}
+
+.btn-center{
+  text-align:center;
+}
+
+input[type=text], input[type=password],textarea,select,input[type=number],.read-text{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.read-text{
+    border:none;
+}
+.flex-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.image-slide {
+  width: 300px;
+  height: 200px;
+  transition: background-image .3s ease-in-out;
+}
+
+.arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.icon-align{
+   transform: translateY(0);
+}
+.mLeft-20{
+  margin-left:20px;
+}
+
+@media (max-width: 460px){
+  .order-form{
+    width:90%;
+  }
+  .img-container{
+    position: absolute;
+  }
+  .image-slide{
+    width:287px;
+  }
+  .container{
+    padding: 0
+  }
+}

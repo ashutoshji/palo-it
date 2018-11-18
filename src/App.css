@@ -18,15 +18,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-img-cover{
+    background-image: url(assets/images/home.jpg);
+    height: 100%;
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
